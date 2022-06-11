@@ -1,0 +1,8 @@
+syntax = "proto3"
+package lm;
+message GNSS
+{
+    double lng = 1;
+    double lat = 2;
+
+}
